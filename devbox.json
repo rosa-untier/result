@@ -3,6 +3,7 @@
   "packages": ["deno@latest"],
   "shell": {
     "scripts": {
+      "dev": "deno task dev $@",
       "test": "deno test $@",
       "publish": "deno publish $@"
     }
